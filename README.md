@@ -4,6 +4,8 @@ An AR cocktail menu application for bars, restaurants, and other drink-serving v
 
 The application uses image tracking to anchor the AR experience to a physical coaster, allowing users to explore cocktails, view ingredients and composition details, and interact with their 3D representations.
 
+<br>
+
 ## ✨ Key Features
 
 ### 📱 AR Cocktail Experience
@@ -25,6 +27,8 @@ The application uses image tracking to anchor the AR experience to a physical co
 - **360° Model Viewing:** Rotate the cocktail model to inspect it from different angles
 - **Touch Interaction:** Uses intuitive mobile touch controls for interacting with and viewing the drink model
 
+<br>
+
 ## 🛠️ Technical Specifications
 
 - **Game Engine:** Unity
@@ -37,6 +41,8 @@ The application uses image tracking to anchor the AR experience to a physical co
 - **3D Content:** Interactive cocktail and drink models
 
 The application uses Unity's AR Foundation framework for image tracking and AR content placement, with ARCore providing the underlying AR functionality on compatible Android devices.
+
+<br>
 
 ## 📋 Requirements
 
@@ -53,6 +59,8 @@ The application uses Unity's AR Foundation framework for image tracking and AR c
 - **Unity Hub**
 - **Unity Editor:** Unity 6.0 (`6000.0.59f2`)
 - **Android Build Support** with SDK, NDK and OpenJDK
+
+<br>
 
 ## 🚀 Installation & Setup
 
@@ -97,6 +105,8 @@ cd AR-Cocktail-Menu
 - Point the camera towards the designated coaster/reference image
 - Once the reference image is detected, the AR cocktail menu will appear
 
+<br>
+
 ## 📱 How to Use
 
 ### Getting Started
@@ -121,3 +131,81 @@ cd AR-Cocktail-Menu
 - **Touch Controls:** Interact with the application interface
 - **Drag / Rotate:** Rotate the cocktail model in preview mode
 - **Camera Movement:** Move the device naturally to view the AR content from different perspectives
+
+<br>
+
+## 🎯 Core Systems & Interactions
+
+### Image Tracking System
+
+The application uses **AR Foundation** with **ARCore** to detect a physical reference image and position the AR cocktail experience relative to it.
+
+- Detects the designated coaster/reference image
+- Anchors virtual cocktail content to the tracked image
+- Maintains the relationship between the physical target and AR content
+
+### Cocktail Navigation System
+
+Allows users to browse through the available drinks within the AR menu.
+
+- Previous and next cocktail navigation
+- Updates the displayed 3D cocktail model
+- Updates the corresponding cocktail information
+
+### Cocktail Information System
+
+Provides information associated with the currently selected cocktail.
+
+- Displays cocktail ingredients
+- Presents cocktail composition and mixing ratios
+- Shows the completed cocktail produced from the listed ingredients
+
+### Interactive Preview System
+
+Provides a dedicated viewing mode for examining individual cocktail models.
+
+- Opens the selected cocktail in a focused preview
+- Supports touch-based model interaction
+- Allows 360° rotation of the cocktail model
+- Enables closer inspection of the selected drink
+
+<br>
+
+## 📝 Credits
+
+### Development Team
+
+- Pranavv Jothinathan (Project Lead)
+- Yifei Liu
+- Zhihan Yu
+- Skyler Sun
+This project was developed as a group project during the **MSc Immersive Technologies** programme at the **University of Bristol**.
+
+### Third-Party Tools & Packages
+
+The project uses technologies and packages including:
+
+- Unity
+- AR Foundation
+- ARCore XR Plugin
+- TextMesh Pro
+- Unity Package Manager dependencies
+
+Additional 3D models, textures, fonts, audio, and other third-party assets used within the project remain subject to their respective licences and terms of use.
+
+<br>
+
+## 🔮 Future Enhancements
+
+Potential future improvements include:
+
+- Expand the available cocktail and drink library
+- Show cocktail mixing animations as users change their composition, with the final cocktail according to the user's choices
+- Add support for additional mobile platforms
+- Explore WebXR deployment for browser-based access
+
+<br>
+
+## 🎥 Demo Video
+https://github.com/user-attachments/assets/8173a9c6-d8f4-402e-a13b-f734afce7bbe
+
