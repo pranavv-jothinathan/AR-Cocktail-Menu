@@ -178,7 +178,8 @@ Provides a dedicated viewing mode for examining individual cocktail models.
 - Pranavv Jothinathan (Project Lead)
 - Yifei Liu
 - Zhihan Yu
-- Skyler Sun
+- Skyler Sun  
+
 This project was developed as a group project during the **MSc Immersive Technologies** programme at the **University of Bristol**.
 
 ### Third-Party Tools & Packages
