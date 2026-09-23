@@ -1,3 +1,4 @@
+# 🍸 AR Cocktail Menu
 ## 📖 Overview
 
 An AR cocktail menu application for bars, restaurants, and other drink-serving venues, presenting interactive 3D cocktail visualisations through mobile augmented reality.
