@@ -181,7 +181,7 @@ Provides a dedicated viewing mode for examining individual cocktail models.
 - Zhihan Yu
 - Skyler Sun
 
-Developed as a group project during the **MSc Immersive Technologies** programme at the **University of Bristol**.
+Developed as a group project during the MSc Immersive Technologies programme at the University of Bristol.
 
 ### Third-Party Tools & Packages
 
